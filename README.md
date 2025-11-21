@@ -3,7 +3,7 @@
 A lightweight WordPress plugin demonstrating modern, class-based architecture with an admin page, custom REST API endpoint, and a frontend shortcode.  
 ---
 
-## ⭐ Features
+## Features
 
 - Adds a custom **admin tools page** under **Tools → Demo Tools**
 - Registers a custom **REST API endpoint** for simple diagnostics
@@ -14,22 +14,24 @@ A lightweight WordPress plugin demonstrating modern, class-based architecture wi
   - Shortcodes
 ---
 
-## 📁 File Structure
+## File Structure
 
-```demo-tools/
+```
+demo-tools/
 │
 ├── demo-tools.php # Main plugin bootstrap
 └── src/
 ├── AdminPage.php # Admin menu + tools page
 ├── RestApi.php # Custom REST API route
-└── Shortcodes.php # Frontend shortcode handler```
+└── Shortcodes.php # Frontend shortcode handler
+```
 
 
 ## Installation
 
 1. Copy the plugin folder into:
 
-```wp-content/plugins/demo-tools/```
+``wp-content/plugins/demo-tools/``
 
 2. Activate **Demo Tools** from:  
    **WordPress Admin → Plugins**
@@ -38,7 +40,7 @@ A lightweight WordPress plugin demonstrating modern, class-based architecture wi
    **Tools → Demo Tools**
 
 4. REST API is available at something like:  
-   `/wp-json/api/v1/ping`
+   ``/wp-json/api/v1/ping``
 
 5. Use the shortcode in any page or post:
 
